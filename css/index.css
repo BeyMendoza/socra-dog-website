@@ -58,3 +58,18 @@ header {
 .navbar .navbar-nav .navbar-nav-item a:hover {
   color: rgb(230, 209, 29);
 }
+
+/* Banner */
+
+.header-banner-container {
+  height: calc(100vh - 4rem);
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header-banner-container h2 {
+  width: 50%;
+  color: #fff;
+}

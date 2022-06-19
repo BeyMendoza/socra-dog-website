@@ -140,3 +140,18 @@ header {
   height: 250px;
   object-fit: cover;
 }
+
+/* Footer */
+
+footer {
+  padding: 18px;
+  background-color: #585858;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+footer img {
+  width: 20px;
+  filter: invert();
+}

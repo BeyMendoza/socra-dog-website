@@ -80,7 +80,7 @@ header {
 
 .services-sections {
   display: flex;
-  padding: 32px;
+  padding: 62px 0;
   width: 80%;
   margin: 0 auto;
   justify-content: space-around;
@@ -88,7 +88,7 @@ header {
 
 .services-sections .services-sections-item {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -99,4 +99,13 @@ header {
   width: 50px;
   border: 1px solid;
   border-radius: 50%;
+}
+
+/* Banner 2 */
+
+.banner2 {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../assets/images/portada2.jpg");
 }

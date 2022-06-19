@@ -109,3 +109,34 @@ header {
   background-position: center;
   background-image: url("../assets/images/portada2.jpg");
 }
+
+/* Grid pets */
+
+.grid-pets-container {
+  text-align: center;
+  padding: 42px;
+}
+
+.grid-pets-container .grid-pets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid-pets-container .grid-pets .grid-pets-item {
+  max-height: 300px;
+}
+
+.grid-pets-container .grid-pets .grid-pets-item div {
+  padding: 12px;
+}
+
+.grid-pets-container .grid-pets .grid-pets-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
